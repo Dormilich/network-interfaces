@@ -1,0 +1,19 @@
+{
+    "name": "dormilich/network-interfaces",
+    "description": "Interface definitions for objects describing networks and IPs.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bertold von Dormilich",
+            "email": "dormilich@netscape.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dormilich\\Http\\": "src/"
+        }
+    }
+}
